@@ -10,8 +10,17 @@ module.exports = {
       
         "test_settings" : {
           "default" : {
+            "screeshots": {
+              "enabled": true,
+              "on_failure": true,
+              "on_error": true,
+              "path": "tests_ouput/screeshots"
+            },
             "desiredCapabilities": {
-              "browserName": "chrome"
+              "browserName": "chrome",
+              "chromeOptions":{
+                "args": ["--headless"]
+              }
             }
           }
         }
