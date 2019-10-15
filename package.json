@@ -11,6 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^77.0.0",
-    "nightwatch": "^1.2.4"
-  }
+    "nightwatch": "^1.2.4",
+    "yaml-lint": "^1.2.4"
+  },
+  "dependencies": {}
 }
